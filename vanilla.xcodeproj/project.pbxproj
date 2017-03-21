@@ -9,13 +9,32 @@
 /* Begin PBXBuildFile section */
 		3C67C01D3C7A7479C2687160 /* Pods_vanilla.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 903DBCC4EC03B37CAC8051B9 /* Pods_vanilla.framework */; };
 		C98D37831E31268F0069EAB3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98D37821E31268F0069EAB3 /* AppDelegate.swift */; };
-		C98D37851E31268F0069EAB3 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98D37841E31268F0069EAB3 /* FirstViewController.swift */; };
-		C98D37871E31268F0069EAB3 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98D37861E31268F0069EAB3 /* SecondViewController.swift */; };
 		C98D378A1E31268F0069EAB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C98D37881E31268F0069EAB3 /* Main.storyboard */; };
 		C98D378C1E31268F0069EAB3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C98D378B1E31268F0069EAB3 /* Assets.xcassets */; };
 		C98D378F1E31268F0069EAB3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C98D378D1E31268F0069EAB3 /* LaunchScreen.storyboard */; };
 		C98D379A1E31268F0069EAB3 /* vanillaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98D37991E31268F0069EAB3 /* vanillaTests.swift */; };
 		C98D37A51E31268F0069EAB3 /* vanillaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98D37A41E31268F0069EAB3 /* vanillaUITests.swift */; };
+		C99C12B71E7F3C3E00A85CEF /* NavigationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C12B61E7F3C3E00A85CEF /* NavigationManager.swift */; };
+		C99C12B81E7F3C3E00A85CEF /* NavigationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C12B61E7F3C3E00A85CEF /* NavigationManager.swift */; };
+		C99C12B91E7F3C3E00A85CEF /* NavigationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C12B61E7F3C3E00A85CEF /* NavigationManager.swift */; };
+		C99C12BB1E7F3D0100A85CEF /* TopicFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C12BA1E7F3D0100A85CEF /* TopicFeedViewController.swift */; };
+		C99C12BC1E7F3D0100A85CEF /* TopicFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C12BA1E7F3D0100A85CEF /* TopicFeedViewController.swift */; };
+		C99C12BD1E7F3D0100A85CEF /* TopicFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C12BA1E7F3D0100A85CEF /* TopicFeedViewController.swift */; };
+		C99C12BF1E7F3DF800A85CEF /* TopicCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C12BE1E7F3DF800A85CEF /* TopicCollectionViewController.swift */; };
+		C99C12C01E7F3DF800A85CEF /* TopicCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C12BE1E7F3DF800A85CEF /* TopicCollectionViewController.swift */; };
+		C99C12C11E7F3DF800A85CEF /* TopicCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C12BE1E7F3DF800A85CEF /* TopicCollectionViewController.swift */; };
+		C99C12C31E7F402A00A85CEF /* TopicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C12C21E7F402A00A85CEF /* TopicCollectionViewCell.swift */; };
+		C99C12C41E7F402A00A85CEF /* TopicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C12C21E7F402A00A85CEF /* TopicCollectionViewCell.swift */; };
+		C99C12C51E7F402A00A85CEF /* TopicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C12C21E7F402A00A85CEF /* TopicCollectionViewCell.swift */; };
+		C99C12C71E7F408100A85CEF /* VideoRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C12C61E7F408100A85CEF /* VideoRecordViewController.swift */; };
+		C99C12C81E7F408100A85CEF /* VideoRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C12C61E7F408100A85CEF /* VideoRecordViewController.swift */; };
+		C99C12C91E7F408200A85CEF /* VideoRecordViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C12C61E7F408100A85CEF /* VideoRecordViewController.swift */; };
+		C99C12CB1E7F409900A85CEF /* VideoPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C12CA1E7F409900A85CEF /* VideoPreviewViewController.swift */; };
+		C99C12CC1E7F409900A85CEF /* VideoPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C12CA1E7F409900A85CEF /* VideoPreviewViewController.swift */; };
+		C99C12CD1E7F409900A85CEF /* VideoPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C12CA1E7F409900A85CEF /* VideoPreviewViewController.swift */; };
+		C99C12D31E8054F900A85CEF /* VideoRecorderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C99C12D21E8054F900A85CEF /* VideoRecorderManager.m */; };
+		C99C12D41E8054F900A85CEF /* VideoRecorderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C99C12D21E8054F900A85CEF /* VideoRecorderManager.m */; };
+		C99C12D51E8054F900A85CEF /* VideoRecorderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C99C12D21E8054F900A85CEF /* VideoRecorderManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,8 +59,6 @@
 		B482E917EBE6BD8DC184F8B7 /* Pods-vanilla.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vanilla.release.xcconfig"; path = "Pods/Target Support Files/Pods-vanilla/Pods-vanilla.release.xcconfig"; sourceTree = "<group>"; };
 		C98D377F1E31268F0069EAB3 /* vanilla.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vanilla.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C98D37821E31268F0069EAB3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C98D37841E31268F0069EAB3 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		C98D37861E31268F0069EAB3 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		C98D37891E31268F0069EAB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C98D378B1E31268F0069EAB3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C98D378E1E31268F0069EAB3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -52,6 +69,17 @@
 		C98D37A01E31268F0069EAB3 /* vanillaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vanillaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C98D37A41E31268F0069EAB3 /* vanillaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vanillaUITests.swift; sourceTree = "<group>"; };
 		C98D37A61E31268F0069EAB3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C99C12B61E7F3C3E00A85CEF /* NavigationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationManager.swift; sourceTree = "<group>"; };
+		C99C12BA1E7F3D0100A85CEF /* TopicFeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicFeedViewController.swift; sourceTree = "<group>"; };
+		C99C12BE1E7F3DF800A85CEF /* TopicCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicCollectionViewController.swift; sourceTree = "<group>"; };
+		C99C12C21E7F402A00A85CEF /* TopicCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicCollectionViewCell.swift; sourceTree = "<group>"; };
+		C99C12C61E7F408100A85CEF /* VideoRecordViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoRecordViewController.swift; sourceTree = "<group>"; };
+		C99C12CA1E7F409900A85CEF /* VideoPreviewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPreviewViewController.swift; sourceTree = "<group>"; };
+		C99C12CE1E8054F800A85CEF /* vanilla-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "vanilla-Bridging-Header.h"; sourceTree = "<group>"; };
+		C99C12CF1E8054F800A85CEF /* vanillaTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "vanillaTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		C99C12D01E8054F800A85CEF /* vanillaUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "vanillaUITests-Bridging-Header.h"; sourceTree = "<group>"; };
+		C99C12D11E8054F900A85CEF /* VideoRecorderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoRecorderManager.h; sourceTree = "<group>"; };
+		C99C12D21E8054F900A85CEF /* VideoRecorderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoRecorderManager.m; sourceTree = "<group>"; };
 		F0981CEB256FA93434F1E4E6 /* Pods-vanilla.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vanilla.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vanilla/Pods-vanilla.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -124,12 +152,21 @@
 			isa = PBXGroup;
 			children = (
 				C98D37821E31268F0069EAB3 /* AppDelegate.swift */,
-				C98D37841E31268F0069EAB3 /* FirstViewController.swift */,
-				C98D37861E31268F0069EAB3 /* SecondViewController.swift */,
 				C98D37881E31268F0069EAB3 /* Main.storyboard */,
+				C99C12B61E7F3C3E00A85CEF /* NavigationManager.swift */,
+				C99C12BA1E7F3D0100A85CEF /* TopicFeedViewController.swift */,
+				C99C12BE1E7F3DF800A85CEF /* TopicCollectionViewController.swift */,
+				C99C12C21E7F402A00A85CEF /* TopicCollectionViewCell.swift */,
+				C99C12C61E7F408100A85CEF /* VideoRecordViewController.swift */,
+				C99C12CA1E7F409900A85CEF /* VideoPreviewViewController.swift */,
+				C99C12D11E8054F900A85CEF /* VideoRecorderManager.h */,
+				C99C12D21E8054F900A85CEF /* VideoRecorderManager.m */,
 				C98D378B1E31268F0069EAB3 /* Assets.xcassets */,
 				C98D378D1E31268F0069EAB3 /* LaunchScreen.storyboard */,
 				C98D37901E31268F0069EAB3 /* Info.plist */,
+				C99C12CE1E8054F800A85CEF /* vanilla-Bridging-Header.h */,
+				C99C12CF1E8054F800A85CEF /* vanillaTests-Bridging-Header.h */,
+				C99C12D01E8054F800A85CEF /* vanillaUITests-Bridging-Header.h */,
 			);
 			path = vanilla;
 			sourceTree = "<group>";
@@ -224,17 +261,20 @@
 					C98D377E1E31268F0069EAB3 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = Y4BA52GDRK;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 					C98D37941E31268F0069EAB3 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = Y4BA52GDRK;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						TestTargetID = C98D377E1E31268F0069EAB3;
 					};
 					C98D379F1E31268F0069EAB3 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = Y4BA52GDRK;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 						TestTargetID = C98D377E1E31268F0069EAB3;
 					};
@@ -340,9 +380,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C98D37871E31268F0069EAB3 /* SecondViewController.swift in Sources */,
+				C99C12CB1E7F409900A85CEF /* VideoPreviewViewController.swift in Sources */,
+				C99C12D31E8054F900A85CEF /* VideoRecorderManager.m in Sources */,
+				C99C12C31E7F402A00A85CEF /* TopicCollectionViewCell.swift in Sources */,
+				C99C12B71E7F3C3E00A85CEF /* NavigationManager.swift in Sources */,
+				C99C12BF1E7F3DF800A85CEF /* TopicCollectionViewController.swift in Sources */,
 				C98D37831E31268F0069EAB3 /* AppDelegate.swift in Sources */,
-				C98D37851E31268F0069EAB3 /* FirstViewController.swift in Sources */,
+				C99C12BB1E7F3D0100A85CEF /* TopicFeedViewController.swift in Sources */,
+				C99C12C71E7F408100A85CEF /* VideoRecordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,7 +395,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C99C12C01E7F3DF800A85CEF /* TopicCollectionViewController.swift in Sources */,
+				C99C12D41E8054F900A85CEF /* VideoRecorderManager.m in Sources */,
 				C98D379A1E31268F0069EAB3 /* vanillaTests.swift in Sources */,
+				C99C12B81E7F3C3E00A85CEF /* NavigationManager.swift in Sources */,
+				C99C12BC1E7F3D0100A85CEF /* TopicFeedViewController.swift in Sources */,
+				C99C12C41E7F402A00A85CEF /* TopicCollectionViewCell.swift in Sources */,
+				C99C12CC1E7F409900A85CEF /* VideoPreviewViewController.swift in Sources */,
+				C99C12C81E7F408100A85CEF /* VideoRecordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -358,7 +410,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C99C12C11E7F3DF800A85CEF /* TopicCollectionViewController.swift in Sources */,
+				C99C12D51E8054F900A85CEF /* VideoRecorderManager.m in Sources */,
 				C98D37A51E31268F0069EAB3 /* vanillaUITests.swift in Sources */,
+				C99C12B91E7F3C3E00A85CEF /* NavigationManager.swift in Sources */,
+				C99C12BD1E7F3D0100A85CEF /* TopicFeedViewController.swift in Sources */,
+				C99C12C51E7F402A00A85CEF /* TopicCollectionViewCell.swift in Sources */,
+				C99C12CD1E7F409900A85CEF /* VideoPreviewViewController.swift in Sources */,
+				C99C12C91E7F408200A85CEF /* VideoRecordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,11 +554,14 @@
 			baseConfigurationReference = F0981CEB256FA93434F1E4E6 /* Pods-vanilla.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = Y4BA52GDRK;
 				INFOPLIST_FILE = vanilla/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mattfolsom.vanilla;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "vanilla/vanilla-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -509,11 +571,13 @@
 			baseConfigurationReference = B482E917EBE6BD8DC184F8B7 /* Pods-vanilla.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = Y4BA52GDRK;
 				INFOPLIST_FILE = vanilla/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mattfolsom.vanilla;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "vanilla/vanilla-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -523,11 +587,14 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = Y4BA52GDRK;
 				INFOPLIST_FILE = vanillaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mattfolsom.vanillaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "vanilla/vanillaTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vanilla.app/vanilla";
 			};
@@ -538,11 +605,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = Y4BA52GDRK;
 				INFOPLIST_FILE = vanillaTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mattfolsom.vanillaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "vanilla/vanillaTests-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vanilla.app/vanilla";
 			};
@@ -552,11 +621,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = Y4BA52GDRK;
 				INFOPLIST_FILE = vanillaUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mattfolsom.vanillaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "vanilla/vanillaUITests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = vanilla;
 			};
@@ -566,11 +638,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = Y4BA52GDRK;
 				INFOPLIST_FILE = vanillaUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mattfolsom.vanillaUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "vanilla/vanillaUITests-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = vanilla;
 			};
@@ -595,6 +669,7 @@
 				C98D37AB1E31268F0069EAB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C98D37AC1E31268F0069EAB3 /* Build configuration list for PBXNativeTarget "vanillaTests" */ = {
 			isa = XCConfigurationList;
@@ -603,6 +678,7 @@
 				C98D37AE1E31268F0069EAB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C98D37AF1E31268F0069EAB3 /* Build configuration list for PBXNativeTarget "vanillaUITests" */ = {
 			isa = XCConfigurationList;
@@ -611,6 +687,7 @@
 				C98D37B11E31268F0069EAB3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

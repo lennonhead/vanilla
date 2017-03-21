@@ -3,5 +3,5 @@ use_frameworks!
 
 target 'vanilla' do
   pod 'Fabric'
-  pod 'Parse'
+  pod 'SCRecorder'
 end
