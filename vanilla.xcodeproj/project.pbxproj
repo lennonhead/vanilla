@@ -35,6 +35,9 @@
 		C99C12D31E8054F900A85CEF /* VideoRecorderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C99C12D21E8054F900A85CEF /* VideoRecorderManager.m */; };
 		C99C12D41E8054F900A85CEF /* VideoRecorderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C99C12D21E8054F900A85CEF /* VideoRecorderManager.m */; };
 		C99C12D51E8054F900A85CEF /* VideoRecorderManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C99C12D21E8054F900A85CEF /* VideoRecorderManager.m */; };
+		C99C12D71E823E6800A85CEF /* ResponseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C12D61E823E6800A85CEF /* ResponseViewController.swift */; };
+		C99C12D81E823E6800A85CEF /* ResponseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C12D61E823E6800A85CEF /* ResponseViewController.swift */; };
+		C99C12D91E823E6800A85CEF /* ResponseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C12D61E823E6800A85CEF /* ResponseViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +83,7 @@
 		C99C12D01E8054F800A85CEF /* vanillaUITests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "vanillaUITests-Bridging-Header.h"; sourceTree = "<group>"; };
 		C99C12D11E8054F900A85CEF /* VideoRecorderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoRecorderManager.h; sourceTree = "<group>"; };
 		C99C12D21E8054F900A85CEF /* VideoRecorderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoRecorderManager.m; sourceTree = "<group>"; };
+		C99C12D61E823E6800A85CEF /* ResponseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseViewController.swift; sourceTree = "<group>"; };
 		F0981CEB256FA93434F1E4E6 /* Pods-vanilla.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vanilla.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vanilla/Pods-vanilla.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -158,6 +162,7 @@
 				C99C12BE1E7F3DF800A85CEF /* TopicCollectionViewController.swift */,
 				C99C12C21E7F402A00A85CEF /* TopicCollectionViewCell.swift */,
 				C99C12C61E7F408100A85CEF /* VideoRecordViewController.swift */,
+				C99C12D61E823E6800A85CEF /* ResponseViewController.swift */,
 				C99C12CA1E7F409900A85CEF /* VideoPreviewViewController.swift */,
 				C99C12D11E8054F900A85CEF /* VideoRecorderManager.h */,
 				C99C12D21E8054F900A85CEF /* VideoRecorderManager.m */,
@@ -387,6 +392,7 @@
 				C99C12BF1E7F3DF800A85CEF /* TopicCollectionViewController.swift in Sources */,
 				C98D37831E31268F0069EAB3 /* AppDelegate.swift in Sources */,
 				C99C12BB1E7F3D0100A85CEF /* TopicFeedViewController.swift in Sources */,
+				C99C12D71E823E6800A85CEF /* ResponseViewController.swift in Sources */,
 				C99C12C71E7F408100A85CEF /* VideoRecordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -402,6 +408,7 @@
 				C99C12BC1E7F3D0100A85CEF /* TopicFeedViewController.swift in Sources */,
 				C99C12C41E7F402A00A85CEF /* TopicCollectionViewCell.swift in Sources */,
 				C99C12CC1E7F409900A85CEF /* VideoPreviewViewController.swift in Sources */,
+				C99C12D81E823E6800A85CEF /* ResponseViewController.swift in Sources */,
 				C99C12C81E7F408100A85CEF /* VideoRecordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -417,6 +424,7 @@
 				C99C12BD1E7F3D0100A85CEF /* TopicFeedViewController.swift in Sources */,
 				C99C12C51E7F402A00A85CEF /* TopicCollectionViewCell.swift in Sources */,
 				C99C12CD1E7F409900A85CEF /* VideoPreviewViewController.swift in Sources */,
+				C99C12D91E823E6800A85CEF /* ResponseViewController.swift in Sources */,
 				C99C12C91E7F408200A85CEF /* VideoRecordViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

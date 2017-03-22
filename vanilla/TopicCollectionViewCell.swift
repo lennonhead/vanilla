@@ -10,4 +10,5 @@ import UIKit
 
 class TopicCollectionViewCell: UICollectionViewCell {
     
+    @IBOutlet weak var topicLabel: UILabel!
 }

@@ -9,5 +9,22 @@
 import UIKit
 
 class NavigationManager: NSObject {
+    
+    
+    
+    static let sharedInstance: NavigationManager = {
+        let instance = NavigationManager()
+        instance.appDelegate = UIApplication.shared.delegate as? AppDelegate
+        return instance
+    }()
+    
+    var appDelegate: AppDelegate?
+    
+    func showResponse(topic: String) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        let controller = storyboard.instantiateViewController(withIdentifier: "Topic Response") as! ResponseViewController
+   //     controller.topicLabel.text = topic
+        appDelegate?.window?.rootViewController?.present(controller, animated: true, completion: nil)
+    }
 
 }

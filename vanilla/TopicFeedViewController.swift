@@ -7,8 +7,11 @@
 //
 
 import UIKit
+//import TopicCollectionViewController
 
 class TopicFeedViewController: UIViewController {
+    
+    var collectionVC: TopicCollectionViewController!
 
     @IBOutlet weak var collectionContainer: UIView!
     
@@ -17,6 +20,14 @@ class TopicFeedViewController: UIViewController {
 
         // add nav button
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Record", style: .plain, target: self, action: #selector(recordTapped))
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        collectionVC = storyboard.instantiateViewController(withIdentifier: "Topic Collection") as! TopicCollectionViewController
+        
+        if let collectionView = collectionVC.collectionView {
+            collectionView.frame = collectionContainer.frame
+            collectionContainer.addSubview(collectionView)
+        }
     }
 
     override func didReceiveMemoryWarning() {
