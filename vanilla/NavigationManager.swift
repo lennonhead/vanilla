@@ -20,11 +20,10 @@ class NavigationManager: NSObject {
     
     var appDelegate: AppDelegate?
     
-    func showResponse(topic: String) {
+    func showResponse(topic: Topic) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let controller = storyboard.instantiateViewController(withIdentifier: "Topic Response") as! ResponseViewController
-   //     controller.topicLabel.text = topic
+        controller.topic = topic
         appDelegate?.window?.rootViewController?.present(controller, animated: true, completion: nil)
     }
-
 }

@@ -11,4 +11,8 @@ import UIKit
 class TopicCollectionViewCell: UICollectionViewCell {
     
     @IBOutlet weak var topicLabel: UILabel!
+    
+    func setTopic(topic: Topic) {
+        topicLabel.text = topic.topicString
+    }
 }

@@ -38,6 +38,15 @@
 		C99C12D71E823E6800A85CEF /* ResponseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C12D61E823E6800A85CEF /* ResponseViewController.swift */; };
 		C99C12D81E823E6800A85CEF /* ResponseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C12D61E823E6800A85CEF /* ResponseViewController.swift */; };
 		C99C12D91E823E6800A85CEF /* ResponseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C12D61E823E6800A85CEF /* ResponseViewController.swift */; };
+		C99C12E81E84520900A85CEF /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C12E71E84520900A85CEF /* Topic.swift */; };
+		C99C12E91E84520900A85CEF /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C12E71E84520900A85CEF /* Topic.swift */; };
+		C99C12EA1E84520900A85CEF /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C12E71E84520900A85CEF /* Topic.swift */; };
+		C99C12EC1E84521700A85CEF /* TopicResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C12EB1E84521700A85CEF /* TopicResponse.swift */; };
+		C99C12ED1E84521700A85CEF /* TopicResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C12EB1E84521700A85CEF /* TopicResponse.swift */; };
+		C99C12EE1E84521700A85CEF /* TopicResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C12EB1E84521700A85CEF /* TopicResponse.swift */; };
+		C99C12F01E84522100A85CEF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C12EF1E84522100A85CEF /* User.swift */; };
+		C99C12F11E84522100A85CEF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C12EF1E84522100A85CEF /* User.swift */; };
+		C99C12F21E84522100A85CEF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C12EF1E84522100A85CEF /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -84,6 +93,9 @@
 		C99C12D11E8054F900A85CEF /* VideoRecorderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoRecorderManager.h; sourceTree = "<group>"; };
 		C99C12D21E8054F900A85CEF /* VideoRecorderManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoRecorderManager.m; sourceTree = "<group>"; };
 		C99C12D61E823E6800A85CEF /* ResponseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseViewController.swift; sourceTree = "<group>"; };
+		C99C12E71E84520900A85CEF /* Topic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
+		C99C12EB1E84521700A85CEF /* TopicResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicResponse.swift; sourceTree = "<group>"; };
+		C99C12EF1E84522100A85CEF /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		F0981CEB256FA93434F1E4E6 /* Pods-vanilla.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vanilla.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vanilla/Pods-vanilla.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -166,6 +178,7 @@
 				C99C12CA1E7F409900A85CEF /* VideoPreviewViewController.swift */,
 				C99C12D11E8054F900A85CEF /* VideoRecorderManager.h */,
 				C99C12D21E8054F900A85CEF /* VideoRecorderManager.m */,
+				C99C12DA1E84499600A85CEF /* Models */,
 				C98D378B1E31268F0069EAB3 /* Assets.xcassets */,
 				C98D378D1E31268F0069EAB3 /* LaunchScreen.storyboard */,
 				C98D37901E31268F0069EAB3 /* Info.plist */,
@@ -192,6 +205,16 @@
 				C98D37A61E31268F0069EAB3 /* Info.plist */,
 			);
 			path = vanillaUITests;
+			sourceTree = "<group>";
+		};
+		C99C12DA1E84499600A85CEF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C99C12E71E84520900A85CEF /* Topic.swift */,
+				C99C12EB1E84521700A85CEF /* TopicResponse.swift */,
+				C99C12EF1E84522100A85CEF /* User.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -386,11 +409,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C99C12CB1E7F409900A85CEF /* VideoPreviewViewController.swift in Sources */,
+				C99C12E81E84520900A85CEF /* Topic.swift in Sources */,
 				C99C12D31E8054F900A85CEF /* VideoRecorderManager.m in Sources */,
+				C99C12EC1E84521700A85CEF /* TopicResponse.swift in Sources */,
 				C99C12C31E7F402A00A85CEF /* TopicCollectionViewCell.swift in Sources */,
 				C99C12B71E7F3C3E00A85CEF /* NavigationManager.swift in Sources */,
 				C99C12BF1E7F3DF800A85CEF /* TopicCollectionViewController.swift in Sources */,
 				C98D37831E31268F0069EAB3 /* AppDelegate.swift in Sources */,
+				C99C12F01E84522100A85CEF /* User.swift in Sources */,
 				C99C12BB1E7F3D0100A85CEF /* TopicFeedViewController.swift in Sources */,
 				C99C12D71E823E6800A85CEF /* ResponseViewController.swift in Sources */,
 				C99C12C71E7F408100A85CEF /* VideoRecordViewController.swift in Sources */,
@@ -402,11 +428,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C99C12C01E7F3DF800A85CEF /* TopicCollectionViewController.swift in Sources */,
+				C99C12E91E84520900A85CEF /* Topic.swift in Sources */,
 				C99C12D41E8054F900A85CEF /* VideoRecorderManager.m in Sources */,
+				C99C12ED1E84521700A85CEF /* TopicResponse.swift in Sources */,
 				C98D379A1E31268F0069EAB3 /* vanillaTests.swift in Sources */,
 				C99C12B81E7F3C3E00A85CEF /* NavigationManager.swift in Sources */,
 				C99C12BC1E7F3D0100A85CEF /* TopicFeedViewController.swift in Sources */,
 				C99C12C41E7F402A00A85CEF /* TopicCollectionViewCell.swift in Sources */,
+				C99C12F11E84522100A85CEF /* User.swift in Sources */,
 				C99C12CC1E7F409900A85CEF /* VideoPreviewViewController.swift in Sources */,
 				C99C12D81E823E6800A85CEF /* ResponseViewController.swift in Sources */,
 				C99C12C81E7F408100A85CEF /* VideoRecordViewController.swift in Sources */,
@@ -418,11 +447,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				C99C12C11E7F3DF800A85CEF /* TopicCollectionViewController.swift in Sources */,
+				C99C12EA1E84520900A85CEF /* Topic.swift in Sources */,
 				C99C12D51E8054F900A85CEF /* VideoRecorderManager.m in Sources */,
+				C99C12EE1E84521700A85CEF /* TopicResponse.swift in Sources */,
 				C98D37A51E31268F0069EAB3 /* vanillaUITests.swift in Sources */,
 				C99C12B91E7F3C3E00A85CEF /* NavigationManager.swift in Sources */,
 				C99C12BD1E7F3D0100A85CEF /* TopicFeedViewController.swift in Sources */,
 				C99C12C51E7F402A00A85CEF /* TopicCollectionViewCell.swift in Sources */,
+				C99C12F21E84522100A85CEF /* User.swift in Sources */,
 				C99C12CD1E7F409900A85CEF /* VideoPreviewViewController.swift in Sources */,
 				C99C12D91E823E6800A85CEF /* ResponseViewController.swift in Sources */,
 				C99C12C91E7F408200A85CEF /* VideoRecordViewController.swift in Sources */,

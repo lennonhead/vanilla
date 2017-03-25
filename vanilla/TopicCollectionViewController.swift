@@ -12,7 +12,7 @@ private let reuseIdentifier = "Topic Cell"
 
 class TopicCollectionViewController: UICollectionViewController {
     
-    var dataArray: [String]!
+    var dataArray: [Topic]!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,9 +23,24 @@ class TopicCollectionViewController: UICollectionViewController {
         // Register cell classes
   //      self.collectionView!.register(TopicCollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
         
-        dataArray = ["How bout that local sports team?","Why didn't the Giants make the World Series last year?","What do you like best about Stance?"]
-
-        // Do any additional setup after loading the view.
+        addDummyData()
+    }
+    
+    func addDummyData() {
+        dataArray = []
+        
+        let topic1 = Topic()
+        topic1.topicString = "How bout that local sports team?"
+        dataArray.append(topic1)
+        
+        let topic2 = Topic()
+        topic2.topicString = "Why didn't the Giants make the World Series last year?"
+        dataArray.append(topic2)
+        
+        let topic3 = Topic()
+        topic3.topicString = "What do you like best about Stance?"
+        dataArray.append(topic3)
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -56,8 +71,7 @@ class TopicCollectionViewController: UICollectionViewController {
 
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseIdentifier, for: indexPath) as! TopicCollectionViewCell
-        let title: String = dataArray[indexPath.item]
-        cell.topicLabel.text = title
+        cell.setTopic(topic: dataArray[indexPath.item])
     
         return cell
     }
