@@ -19,9 +19,12 @@ class TopicCollectionViewController: UICollectionViewController {
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
+        
+        
 
         // Register cell classes
-  //      self.collectionView!.register(TopicCollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
+        let nib = UINib(nibName: "TopicCollectionViewCell", bundle: nil)
+        self.collectionView!.register(nib, forCellWithReuseIdentifier: reuseIdentifier)
         
         addDummyData()
     }

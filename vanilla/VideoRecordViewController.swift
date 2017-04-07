@@ -82,7 +82,7 @@ class VideoRecordViewController: UIViewController, SCRecorderDelegate {
         }
         
         if currentTime.seconds > 0 {
-            let percentage = currentTime.seconds / recorder.maxRecordDuration.seconds
+            let percentage = CGFloat(currentTime.seconds) / MAX_CAPTURE_LENGTH //recorder.maxRecordDuration.seconds
             updateProgressBarWidth(width: CGFloat(percentage) * view.frame.size.width)
         } else {
             updateProgressBarWidth(width: 0)
@@ -100,7 +100,7 @@ class VideoRecordViewController: UIViewController, SCRecorderDelegate {
     }
     
     func addMinTimeSegmentView() {
-        let minTimePos = (MIN_CAPTURE_LENGTH/MAX_CAPTURE_LENGTH) * segmentViewContainer.frame.size.width;
+        let minTimePos = (MIN_CAPTURE_LENGTH/MAX_CAPTURE_LENGTH) * segmentViewContainer.frame.size.width
         let frame: CGRect = CGRect(x: minTimePos-1, y: 0, width: 2, height: progressBarView.frame.size.height)
         minTimeMarkerView = UIView.init(frame: frame)
         minTimeMarkerView.backgroundColor = UIColor.blue

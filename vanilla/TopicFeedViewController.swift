@@ -25,9 +25,18 @@ class TopicFeedViewController: UIViewController {
         collectionVC = storyboard.instantiateViewController(withIdentifier: "Topic Collection") as! TopicCollectionViewController
         
         if let collectionView = collectionVC.collectionView {
-            collectionView.frame = collectionContainer.frame
+            var frame = collectionContainer.frame
+            frame.origin.x = 0
+            frame.origin.y = 0
+            collectionView.frame = frame
             collectionContainer.addSubview(collectionView)
+            
+            collectionView.topAnchor.constraint(equalTo: collectionContainer.topAnchor).isActive = true
         }
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
     }
 
     override func didReceiveMemoryWarning() {
