@@ -20,6 +20,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         
         Fabric.with([Crashlytics.self])
+        
+       // UILabel.appearance().font = UIFont(name: "YourFontName", size: 17.0)
+        
         return true
     }
 

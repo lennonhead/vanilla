@@ -15,6 +15,8 @@ class VideoRecordViewController: UIViewController, SCRecorderDelegate {
         return true
     }
     
+    public var topicText: String = ""
+    
     var recorder: SCRecorder!
     var segmentViews: NSMutableArray!
     var minTimeMarkerView: UIView!
@@ -26,6 +28,7 @@ class VideoRecordViewController: UIViewController, SCRecorderDelegate {
     @IBOutlet weak var cancelButton: UIButton!
     @IBOutlet weak var segmentViewContainer: UIView!
     @IBOutlet weak var progressBarView: UIView!
+    @IBOutlet weak var topicTextView: UITextView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -39,6 +42,8 @@ class VideoRecordViewController: UIViewController, SCRecorderDelegate {
         cancelButton.layer.shadowRadius = 6
         segmentViews = NSMutableArray()
         recordButton.addGestureRecognizer(VideoGestureRecognizer(target: self, action:#selector(handleRecordTouch(_:))))
+        
+        topicTextView.text = topicText
     }
     
     override func viewWillAppear(_ animated: Bool) {

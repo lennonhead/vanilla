@@ -46,7 +46,7 @@ class TopicFeedViewController: UIViewController {
     
     func recordTapped() {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
-        let controller = storyboard.instantiateViewController(withIdentifier: "Video Record")
+        let controller = storyboard.instantiateViewController(withIdentifier: "Topic Create")
         self.present(controller, animated: true, completion: nil)
     }
     
