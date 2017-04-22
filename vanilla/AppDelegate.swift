@@ -23,7 +23,15 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         
        // UILabel.appearance().font = UIFont(name: "YourFontName", size: 17.0)
         
+        setupAppearance()
+        
+        // check onboarding?
+        
         return true
+    }
+    
+    func setupAppearance() {
+        UINavigationBar.appearance().barTintColor = UIColor.white
     }
 
     func applicationWillResignActive(_ application: UIApplication) {

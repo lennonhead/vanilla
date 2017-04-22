@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="dmm-Tl-jJG">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12120" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="dmm-Tl-jJG">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -49,7 +49,7 @@
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pSk-FS-L56" userLabel="Container">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <color key="backgroundColor" red="0.1960784314" green="0.71764705880000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             </view>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -93,7 +93,7 @@
                                     <constraint firstAttribute="width" constant="75" id="MwA-6c-dAc"/>
                                     <constraint firstAttribute="height" constant="36" id="Vp3-Ef-geW"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
+                                <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="20"/>
                                 <size key="titleShadowOffset" width="1" height="1"/>
                                 <state key="normal" title="Back">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -172,14 +172,14 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="My Stance Topic" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DJK-Bd-nDG">
-                                <rect key="frame" x="15" y="183" width="345" height="160"/>
+                                <rect key="frame" x="15" y="182" width="345" height="161"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <color key="textColor" red="0.9882352941176471" green="0.9882352941176471" blue="0.9882352941176471" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="Lato-Light" family="Lato" pointSize="32"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please add your topic  " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="waa-A4-ZpI">
-                                <rect key="frame" x="15" y="145" width="345" height="21"/>
+                                <rect key="frame" x="15" y="145" width="345" height="20"/>
                                 <fontDescription key="fontDescription" name="Lato-Bold" family="Lato" pointSize="17"/>
                                 <color key="textColor" red="0.9882352941176471" green="0.9882352941176471" blue="0.9882352941176471" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
@@ -257,14 +257,13 @@
                                     <constraint firstItem="OJj-u8-dgD" firstAttribute="leading" secondItem="5wL-Na-ZLS" secondAttribute="leading" id="lA4-NI-Vai"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aiz-Ka-wFC">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aiz-Ka-wFC">
                                 <rect key="frame" x="10" y="20" width="46" height="46"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="46" id="1wc-lE-wWP"/>
                                     <constraint firstAttribute="width" constant="46" id="Qcy-cR-qHx"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
-                                <state key="normal" title="X">
+                                <state key="normal" image="closeButton">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -273,7 +272,7 @@
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Topic Text" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K7y-Vc-MeY">
                                 <rect key="frame" x="20" y="564" width="335" height="64"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="Lato-Light" family="Lato" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -336,15 +335,14 @@
                                     <constraint firstItem="Lt1-gW-qOZ" firstAttribute="top" secondItem="gkx-Fu-uPl" secondAttribute="top" constant="20" id="r3Y-a8-RTm"/>
                                 </constraints>
                             </view>
-                            <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x8n-JD-CMw">
-                                <rect key="frame" x="20" y="26" width="75" height="36"/>
+                            <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="x8n-JD-CMw">
+                                <rect key="frame" x="20" y="26" width="36" height="36"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="75" id="Z4P-iq-rLp"/>
+                                    <constraint firstAttribute="width" constant="36" id="Z4P-iq-rLp"/>
                                     <constraint firstAttribute="height" constant="36" id="fpQ-Pa-Kkg"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="20"/>
                                 <size key="titleShadowOffset" width="1" height="1"/>
-                                <state key="normal" title="Cancel">
+                                <state key="normal" image="closeButton">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                     <color key="titleShadowColor" red="0.2470588235" green="0.30588235289999999" blue="0.35686274509999999" alpha="1" colorSpace="calibratedRGB"/>
                                 </state>
@@ -378,7 +376,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SLb-y4-Rnc" userLabel="controls view">
-                                <rect key="frame" x="66" y="386" width="244" height="171"/>
+                                <rect key="frame" x="66" y="387.5" width="244" height="171"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pt4-o3-Q8b">
                                         <rect key="frame" x="87" y="78" width="70" height="70"/>
@@ -401,14 +399,14 @@
                                             <action selector="switchCameraTapped:" destination="kdq-iC-5Ic" eventType="touchUpInside" id="zaJ-Ps-WRp"/>
                                         </connections>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5KK-Tr-h37" userLabel="reset btn">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5KK-Tr-h37" userLabel="reset btn">
                                         <rect key="frame" x="95" y="25" width="47" height="32"/>
                                         <color key="backgroundColor" red="1" green="0.0" blue="0.011300415179188228" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="47" id="9Fa-bR-Wyw"/>
                                             <constraint firstAttribute="height" constant="32" id="CK6-LB-HdI"/>
                                         </constraints>
-                                        <state key="normal" title="X"/>
+                                        <state key="normal" image="closeButton"/>
                                         <connections>
                                             <action selector="clearRecordingTapped:" destination="kdq-iC-5Ic" eventType="touchUpInside" id="25P-wS-fsh"/>
                                         </connections>
@@ -435,6 +433,7 @@
                                     <constraint firstAttribute="height" constant="80" id="3jr-0o-78V"/>
                                     <constraint firstAttribute="width" constant="110" id="Jor-PK-Ek3"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" name="Lato-Light" family="Lato" pointSize="17"/>
                                 <state key="normal" title="Preview">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
@@ -448,17 +447,17 @@
                                 </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ydB-NC-dPx" userLabel="question view">
-                                <rect key="frame" x="0.0" y="567" width="375" height="100"/>
+                                <rect key="frame" x="0.0" y="568.5" width="375" height="98.5"/>
                                 <subviews>
                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" text="question text what " textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3aO-Ur-JGg">
-                                        <rect key="frame" x="10" y="10" width="355" height="38"/>
+                                        <rect key="frame" x="10" y="10" width="355" height="36.5"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="16"/>
+                                        <fontDescription key="fontDescription" name="Lato-Light" family="Lato" pointSize="17"/>
                                         <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                     </textView>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FDJ-7g-cio" userLabel="asking user info">
-                                        <rect key="frame" x="0.0" y="38" width="375" height="62"/>
+                                        <rect key="frame" x="0.0" y="36.5" width="375" height="62"/>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="62" id="3Tp-jm-CcM"/>

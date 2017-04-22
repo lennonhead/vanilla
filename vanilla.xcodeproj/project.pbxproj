@@ -62,6 +62,12 @@
 		C99C12F01E84522100A85CEF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C12EF1E84522100A85CEF /* User.swift */; };
 		C99C12F11E84522100A85CEF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C12EF1E84522100A85CEF /* User.swift */; };
 		C99C12F21E84522100A85CEF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99C12EF1E84522100A85CEF /* User.swift */; };
+		C9B282CB1EAB06FB001C45D6 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9B282CA1EAB06FB001C45D6 /* Onboarding.storyboard */; };
+		C9B282CC1EAB06FB001C45D6 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9B282CA1EAB06FB001C45D6 /* Onboarding.storyboard */; };
+		C9B282CD1EAB06FB001C45D6 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9B282CA1EAB06FB001C45D6 /* Onboarding.storyboard */; };
+		C9B282CF1EAB08DD001C45D6 /* UIButton+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B282CE1EAB08DD001C45D6 /* UIButton+Custom.swift */; };
+		C9B282D01EAB08DD001C45D6 /* UIButton+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B282CE1EAB08DD001C45D6 /* UIButton+Custom.swift */; };
+		C9B282D11EAB08DD001C45D6 /* UIButton+Custom.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B282CE1EAB08DD001C45D6 /* UIButton+Custom.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -116,6 +122,8 @@
 		C99C12E71E84520900A85CEF /* Topic.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
 		C99C12EB1E84521700A85CEF /* TopicResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TopicResponse.swift; sourceTree = "<group>"; };
 		C99C12EF1E84522100A85CEF /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		C9B282CA1EAB06FB001C45D6 /* Onboarding.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		C9B282CE1EAB08DD001C45D6 /* UIButton+Custom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Custom.swift"; sourceTree = "<group>"; };
 		F0981CEB256FA93434F1E4E6 /* Pods-vanilla.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vanilla.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vanilla/Pods-vanilla.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -189,6 +197,7 @@
 			children = (
 				C98D37821E31268F0069EAB3 /* AppDelegate.swift */,
 				C98D37881E31268F0069EAB3 /* Main.storyboard */,
+				C9B282CA1EAB06FB001C45D6 /* Onboarding.storyboard */,
 				C99C12B61E7F3C3E00A85CEF /* NavigationManager.swift */,
 				C99C12BA1E7F3D0100A85CEF /* TopicFeedViewController.swift */,
 				C99C12BE1E7F3DF800A85CEF /* TopicCollectionViewController.swift */,
@@ -235,6 +244,7 @@
 			isa = PBXGroup;
 			children = (
 				C998FFB71E9C426200AE944F /* UIColor+AppColors.swift */,
+				C9B282CE1EAB08DD001C45D6 /* UIButton+Custom.swift */,
 			);
 			name = Extensions;
 			sourceTree = "<group>";
@@ -379,6 +389,7 @@
 				C998FFC11E9C44CB00AE944F /* Lato-Bold.ttf in Resources */,
 				C98D378F1E31268F0069EAB3 /* LaunchScreen.storyboard in Resources */,
 				C98D378C1E31268F0069EAB3 /* Assets.xcassets in Resources */,
+				C9B282CB1EAB06FB001C45D6 /* Onboarding.storyboard in Resources */,
 				C95A30DA1E9835CB0034462B /* TopicCollectionViewCell.xib in Resources */,
 				C98D378A1E31268F0069EAB3 /* Main.storyboard in Resources */,
 			);
@@ -391,6 +402,7 @@
 				C95A30DB1E9835CB0034462B /* TopicCollectionViewCell.xib in Resources */,
 				C998FFC21E9C44CB00AE944F /* Lato-Bold.ttf in Resources */,
 				C998FFBE1E9C44AE00AE944F /* Lato-Light.ttf in Resources */,
+				C9B282CC1EAB06FB001C45D6 /* Onboarding.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -401,6 +413,7 @@
 				C95A30DC1E9835CB0034462B /* TopicCollectionViewCell.xib in Resources */,
 				C998FFC31E9C44CB00AE944F /* Lato-Bold.ttf in Resources */,
 				C998FFBF1E9C44AE00AE944F /* Lato-Light.ttf in Resources */,
+				C9B282CD1EAB06FB001C45D6 /* Onboarding.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -484,6 +497,7 @@
 				C99C12BF1E7F3DF800A85CEF /* TopicCollectionViewController.swift in Sources */,
 				C98D37831E31268F0069EAB3 /* AppDelegate.swift in Sources */,
 				C99C12F01E84522100A85CEF /* User.swift in Sources */,
+				C9B282CF1EAB08DD001C45D6 /* UIButton+Custom.swift in Sources */,
 				C99C12BB1E7F3D0100A85CEF /* TopicFeedViewController.swift in Sources */,
 				C99C12D71E823E6800A85CEF /* ResponseViewController.swift in Sources */,
 				C99C12C71E7F408100A85CEF /* VideoRecordViewController.swift in Sources */,
@@ -505,6 +519,7 @@
 				C99C12B81E7F3C3E00A85CEF /* NavigationManager.swift in Sources */,
 				C99C12BC1E7F3D0100A85CEF /* TopicFeedViewController.swift in Sources */,
 				C99C12F11E84522100A85CEF /* User.swift in Sources */,
+				C9B282D01EAB08DD001C45D6 /* UIButton+Custom.swift in Sources */,
 				C99C12CC1E7F409900A85CEF /* VideoPreviewViewController.swift in Sources */,
 				C99C12D81E823E6800A85CEF /* ResponseViewController.swift in Sources */,
 				C99C12C81E7F408100A85CEF /* VideoRecordViewController.swift in Sources */,
@@ -526,6 +541,7 @@
 				C99C12B91E7F3C3E00A85CEF /* NavigationManager.swift in Sources */,
 				C99C12BD1E7F3D0100A85CEF /* TopicFeedViewController.swift in Sources */,
 				C99C12F21E84522100A85CEF /* User.swift in Sources */,
+				C9B282D11EAB08DD001C45D6 /* UIButton+Custom.swift in Sources */,
 				C99C12CD1E7F409900A85CEF /* VideoPreviewViewController.swift in Sources */,
 				C99C12D91E823E6800A85CEF /* ResponseViewController.swift in Sources */,
 				C99C12C91E7F408200A85CEF /* VideoRecordViewController.swift in Sources */,

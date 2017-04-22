@@ -19,7 +19,14 @@ class TopicFeedViewController: UIViewController {
         super.viewDidLoad()
 
         // add nav button
-        navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Record", style: .plain, target: self, action: #selector(recordTapped))
+        
+        
+        
+        navigationItem.rightBarButtonItem = UIBarButtonItem(image: UIImage(named: "addButton"), style: .plain, target: self, action: #selector(recordTapped))
+        navigationItem.leftBarButtonItem = UIBarButtonItem(image: UIImage(named: "menuButton"), style: .plain, target: self, action: #selector(menuTapped))
+        
+        let titleView = UIImageView(image: UIImage(named: "sports_emojis"))
+        navigationItem.titleView = titleView
         
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         collectionVC = storyboard.instantiateViewController(withIdentifier: "Topic Collection") as! TopicCollectionViewController
@@ -37,6 +44,9 @@ class TopicFeedViewController: UIViewController {
     
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
+        
+        // TESTING
+  //      NavigationManager.sharedInstance.showOnboarding()
     }
 
     override func didReceiveMemoryWarning() {
@@ -48,6 +58,10 @@ class TopicFeedViewController: UIViewController {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let controller = storyboard.instantiateViewController(withIdentifier: "Topic Create")
         self.present(controller, animated: true, completion: nil)
+    }
+    
+    func menuTapped() {
+        
     }
     
 

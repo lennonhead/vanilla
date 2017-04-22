@@ -20,6 +20,12 @@ class NavigationManager: NSObject {
     
     var appDelegate: AppDelegate?
     
+    func showOnboarding() {
+        let storyboard = UIStoryboard(name: "Onboarding", bundle: nil)
+        let controller = storyboard.instantiateViewController(withIdentifier: "Onboard Start")
+        appDelegate?.window?.rootViewController?.present(controller, animated: true, completion: nil)
+    }
+    
     func showResponse(topic: Topic) {
         let storyboard = UIStoryboard(name: "Main", bundle: nil)
         let controller = storyboard.instantiateViewController(withIdentifier: "Topic Response") as! ResponseViewController
